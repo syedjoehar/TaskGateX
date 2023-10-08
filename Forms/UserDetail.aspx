@@ -90,7 +90,7 @@
         <!-- Display user data in a GridView -->
         <asp:GridView ID="userGridView" CssClass="grid-view" runat="server" AutoGenerateColumns="False" OnRowEditing="userGridView_RowEditing" OnRowUpdating="userGridView_RowUpdating" OnRowCancelingEdit="userGridView_RowCancelingEdit" OnRowDeleting="userGridView_RowDeleting">
             <Columns>
-                <asp:BoundField DataField="UserID" HeaderText="User ID" ReadOnly="True" />
+                <asp:BoundField DataField="UserID" HeaderText="User ID" />
                 <asp:BoundField DataField="FirstName" HeaderText="First Name" />
                 <asp:BoundField DataField="LastName" HeaderText="Last Name" />
                 <asp:BoundField DataField="Email" HeaderText="Email" />
